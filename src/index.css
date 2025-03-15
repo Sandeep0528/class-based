@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+}
+
+#card {
+  /* display: block; */
+  border-radius: 5px;
+  width: 400px;
+  height: 400px;
+  padding: 1em 0.1em;
+  background: blueviolet;
+  box-shadow: 1px 1px 5px 1px rgb(0, 0, 0, 0.59);
+  justify-content: space-evenly;
+  z-index: 5;
+}
+
+#card img {
+  width: 200px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+#card h1,
+h2 {
+  font-family: courier;
+  color: #333;
+}
+
+#card p {
+  color: greenyellow;
+  font-size: 13px;
+  font-size: 20px;
+}
+
+body {
+  background: #000;
+}
+
+.stopwatch-time {
+  text-align: center;
+  color: #fff;
+  font-size: 80px;
+}
+
+.stopwatch-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.stopwatch-buttons button {
+  margin: 20px;
+  border: none;
+  padding: 10px 30px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.stopwatch-buttons button:first-child {
+  background-color: green;
+}
+
+.stopwatch-buttons button:last-child {
+  background-color: red;
+}
